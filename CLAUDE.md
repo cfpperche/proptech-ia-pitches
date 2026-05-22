@@ -32,7 +32,8 @@ Dois tipos de pitch coexistem no repo:
 - **Formato:** todo pitch é um one-pager e segue `pitches/_template.md`. One-pagers concisos têm ~2,5× mais taxa de resposta que decks longos — concisão é requisito, não estilo.
 - **Lidere com o problema de negócio**, não com a tecnologia. Quantifique a dor. Cite a fonte de cada número.
 - **Não reconstruir o ERP da Group.** Toda ideia pluga por cima ou pelas bordas (morador, síndico, migração, auditoria). Ver `docs/contexto-group-software.md` § Filtros estratégicos.
-- Numeração de arquivo é estável e global: `NN-slug.md`. Tier 1 = 01–05, Tier 2 = 06–08, expansão de portfólio = 09–11.
+- Numeração de arquivo é estável e global: `NN-slug.md`. Pitch-herói = 00, Tier 1 = 01–05, Tier 2 = 06–08, expansão de portfólio = 09–11.
+- `pitches/00-administradora-ia-nativa.md` é o **pitch-herói** — a tese-mãe IA-first. É mais longo que os one-pagers (~2–2,5 páginas) e os pitches 01–08 dobram como módulos da escada de autonomia dele. Ao editar 01–08, manter a coerência com a escada do 00.
 
 ## Gotchas
 

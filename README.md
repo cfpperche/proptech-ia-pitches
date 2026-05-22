@@ -6,6 +6,14 @@ Cada pitch parte de uma **dor real e evidenciada** — mapeada em sites de recla
 
 ## Índice dos pitches
 
+### Pitch-herói
+
+A tese-mãe — uma proposta IA-first de ambição estrutural, que responde à moldura "a próxima grande PropTech" do CEO da Group. Os pitches 01–08 abaixo **dobram como módulos dela**.
+
+| # | Pitch | O que é |
+|---|---|---|
+| 00 | [Administradora IA-nativa](pitches/00-administradora-ia-nativa.md) | O operador agêntico do condomínio: agentes de IA executam a administração, humanos supervisionam — services-as-software aplicado à gestão condominial |
+
 ### Tier 1 — prioritárias
 
 | # | Pitch | Vertical | Dor central |
