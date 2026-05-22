@@ -24,6 +24,18 @@ Cada pitch parte de uma **dor real e evidenciada** — mapeada em sites de recla
 | 07 | [Rateio de Energia por Consumo Real](pitches/07-rateio-energia-consumo-real.md) | Energia / utilities | Rateio por fração ideal, não por consumo real |
 | 08 | [Transparência de Encargos no Shopping](pitches/08-transparencia-crd-shopping.md) | Shopping centers | Encargo comum maior que o aluguel; CRD opaco |
 
+## Expansão de portfólio — propostas para a Group construir
+
+Além dos pitches de startup acima (founder → Group), [`expansao-portfolio/`](expansao-portfolio/) reúne 3 propostas de produto para a **própria Group construir** — novas linhas de receita guiadas por análise competitiva, não por dores pontuais.
+
+| # | Proposta | Ativo Group | Espaço em branco |
+|---|---|---|---|
+| 09 | [Condo Intelligence](expansao-portfolio/09-condo-intelligence.md) | Dados de 100k condomínios | Ninguém monetiza o dado condominial como produto |
+| 10 | [Resident Super-App](expansao-portfolio/10-resident-super-app.md) | 2,5M usuários do app | A camada do morador capturada por fora (market4u) |
+| 11 | [Group Energia & ESG](expansao-portfolio/11-group-energia-esg.md) | Consumo de 5M unidades + hardware | Categoria madura no exterior (Yardi), sem dono no BR |
+
+Mapa competitivo completo — concorrentes diretos e indiretos, fraquezas, espaço em branco: [`docs/analise-concorrentes.md`](docs/analise-concorrentes.md).
+
 ## Como os pitches foram construídos
 
 1. **Pesquisa de dores** — varredura de Reclame Aqui, avaliações de apps (Google Play / App Store), fontes setoriais (SindicoNet, AABIC, ABRASCE) e do site da Group, em quatro frentes: condomínios residenciais, propriedades comerciais, back-office (RH/contábil/cobrança/atendimento) e clientes da própria Group.
@@ -37,10 +49,10 @@ O ERP-núcleo da Group atende ~100 mil condomínios mas carrega problemas de con
 ## Estrutura do repositório
 
 ```
-pitches/        # um one-pager por ideia (01–08) + _template.md
-docs/           # contexto de mercado (contexto-group-software.md)
-                # e boas práticas de pitch (boas-praticas-pitch.md)
-CLAUDE.md       # orientação para o Claude Code trabalhar neste repo
+pitches/              # pitches de startup p/ o Startup Academy (01–08) — founder → Group
+expansao-portfolio/   # propostas p/ a Group construir (09–11) — análise competitiva
+docs/                 # contexto de mercado, boas práticas de pitch, análise competitiva
+CLAUDE.md             # orientação para o Claude Code trabalhar neste repo
 ```
 
 ## Aviso

@@ -15,10 +15,16 @@ Nenhuma — repositório só de documentos. Markdown puro, sem build, sem depend
 ## Estrutura
 
 ```
-pitches/        # um one-pager por ideia (01–08); _template.md é o molde
-docs/           # contexto de mercado + boas práticas de pitch
-README.md       # índice navegável dos pitches
+pitches/              # pitches de startup p/ o Startup Academy (01–08); founder → Group
+expansao-portfolio/   # propostas p/ a Group construir (09–11); análise competitiva
+docs/                 # contexto de mercado, boas práticas de pitch, análise competitiva
+README.md             # índice navegável de tudo
 ```
+
+Dois tipos de pitch coexistem no repo:
+
+- **`pitches/`** — um founder externo pitcha; a Group investe. Parte de dor de mercado. Segue `pitches/_template.md`.
+- **`expansao-portfolio/`** — a própria Group constrói; expansão de portfólio. Parte de espaço em branco competitivo. Segue `expansao-portfolio/_template.md`.
 
 ## Convenções
 
@@ -26,7 +32,7 @@ README.md       # índice navegável dos pitches
 - **Formato:** todo pitch é um one-pager e segue `pitches/_template.md`. One-pagers concisos têm ~2,5× mais taxa de resposta que decks longos — concisão é requisito, não estilo.
 - **Lidere com o problema de negócio**, não com a tecnologia. Quantifique a dor. Cite a fonte de cada número.
 - **Não reconstruir o ERP da Group.** Toda ideia pluga por cima ou pelas bordas (morador, síndico, migração, auditoria). Ver `docs/contexto-group-software.md` § Filtros estratégicos.
-- Numeração de arquivo é estável: `NN-slug.md`. Tier 1 = 01–05, Tier 2 = 06–08.
+- Numeração de arquivo é estável e global: `NN-slug.md`. Tier 1 = 01–05, Tier 2 = 06–08, expansão de portfólio = 09–11.
 
 ## Gotchas
 
