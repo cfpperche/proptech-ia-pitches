@@ -29,13 +29,14 @@ Quem construir o operador agêntico do condomínio brasileiro agora ocupa uma ca
 
 ## O mercado — a matemática do colapso
 
-A administradora de condomínios é, estruturalmente, um **negócio de mão de obra**:
+O alvo não é "o software de gestão condominial" — é **o trabalho de administrar condomínio**, hoje feito inteiramente por gente:
 
-- ~1.000 administradoras ativas no Brasil; ~80% têm até 10 funcionários — uma cauda longa de empresas micro e intensivas em pessoas.
-- A folha de pagamento é o maior custo fixo da administradora; a margem do negócio é magra — da ordem de 10% sobre o faturamento.
+- O Censo Condominial 2024/25 conta **~520 mil condomínios** no Brasil, movimentando **~R$ 190 bi/ano em taxas**. Toda essa operação — financeiro, cobrança, comunicação, fornecedores, compliance — passa por mão de obra humana.
+- Quem faz esse trabalho é uma mistura: de ~1.000 administradoras pure-play (das quais ~80% são micro, com até 10 funcionários) a dezenas de milhares de empresas de gestão imobiliária, mais **420 mil+ síndicos em atividade** (ABRASSP). O número de "firmas" depende da definição que se use; o que não depende é o fato estrutural — **administrar 520 mil condomínios é um negócio de folha de pagamento**.
 - A produtividade é refém de gente: hoje um gerente de contas cuida de ~20–30 condomínios — e a qualidade despenca quando passa disso (é a origem do "atendimento que só responde dois dias depois").
+- E o mercado **profissionaliza rápido**: o número de síndicos profissionais cresceu +300% em dez anos e 1 em cada 5 condomínios já tem um. Mercado que profissionaliza é mercado pronto para adotar a ferramenta que multiplica o profissional — seja ele uma administradora ou um síndico autônomo.
 
-É exatamente o alvo da tese services-as-software: um negócio onde o custo é trabalho humano repetitivo e a margem é refém da folha. Um operador agêntico quebra o teto de 20–30 condomínios por gerente. O mesmo time passa a gerir 100, 200 — e a margem de 10% expande, ou o preço cai e a administradora toma o mercado. **A receita endereçável não é a licença de software; é a folha inteira da administração condominial brasileira.**
+É exatamente o alvo da tese services-as-software: um negócio onde o custo é trabalho humano repetitivo e a margem é refém da folha (na administradora pure-play, da ordem de 10% sobre o faturamento). Um operador agêntico quebra o teto de ~20–30 condomínios por gerente — o mesmo time passa a gerir 100, 200. **A receita endereçável não é a licença de software; é a folha inteira da administração condominial brasileira — a operação humana por trás de ~R$ 190 bi/ano em taxas.**
 
 ## A escada de autonomia — e onde os 11 pitches entram
 
@@ -59,7 +60,14 @@ O enquadramento certo: o operador agêntico é um **superpoder para a administra
 
 **Por que a Group.** O operador agêntico precisa de duas coisas que a Group já tem: o ERP onde as ações de fato acontecem (sem ele, o agente não tem onde executar) e a base de ~100 mil condomínios para treinar e validar os agentes. Construir isso fora da Group é ter de construir o ERP primeiro. Com a Group, começa-se no degrau certo.
 
-**Por que este time.** *Rascunho — personalizar.* O risco do produto não é "fazer um chatbot" — é construir a camada de verificação e governança que torna a autonomia confiável. É o que eu construo: sistemas de governança e verificação para agentes de IA — contrato verificável, trilha de auditoria, supervisão por exceção. Somo a isso conhecer a arquitetura da Group por dentro (fui arquiteto de software dela) e ter operado um negócio B2B real por cinco anos. O herói não precisa de quem faça IA vistosa; precisa de quem faça IA em que se confia.
+**Por que este time.** O herói não é difícil de imaginar — é difícil de *confiar*. O risco real não é construir agentes; é construir o plano de controle que torna a autonomia auditável o bastante para uma administradora apostar a operação nele. Quatro coisas, raras de achar juntas, endereçam exatamente esse risco:
+
+- **Construo a camada de governança de agentes de IA.** Contrato verificável, trilha de auditoria, supervisão por exceção — a disciplina que separa "agente que às vezes erra" de "operador em que se confia". O plano de controle do herói é o que eu já faço.
+- **Formação em controle supervisório de sistemas autônomos.** "Como tornar um sistema autônomo seguro de supervisionar" foi o tema da minha pesquisa de mestrado — a escada de autonomia é a aplicação direta disso.
+- **Conheço a Group por dentro.** Fui arquiteto de software da Group; sei onde, no ERP, os agentes vão executar.
+- **Operei um negócio B2B por cinco anos.** O herói é um negócio de serviço — entendo a administradora como operação, não só como diagrama de software.
+
+*(Personalizar: nome, links de portfólio e LinkedIn.)*
 
 ## Riscos honestos
 
@@ -80,6 +88,8 @@ Não financiar o v3 — financiar o **v1 verificável**. Concretamente, ao Start
 
 - [`../docs/analise-concorrentes.md`](../docs/analise-concorrentes.md) — mapa competitivo (a IA do setor está presa na camada de assistência)
 - Sequoia Capital — "Services: The New Software" (Julien Bek, mar/2026); kategos.ai — "Service as Software: The $4.6 Trillion AI Inversion (2026)"
-- Econodata — ~1.000 administradoras de condomínio ativas no Brasil; ~815 com até 10 funcionários
+- Censo Condominial 2024/25 (uCondo) — ~520 mil condomínios; ~R$ 190 bi/ano em taxas; síndicos profissionais +300% em dez anos
+- ABRASSP — 420 mil+ síndicos em atividade no Brasil
+- Econodata — ~1.000 administradoras de condomínio pure-play (~80% com ≤10 funcionários); a CNAE 6822 "gestão e administração da propriedade imobiliária" reúne ~42 mil empresas (definição ampla, inclui gestão imobiliária em geral)
 - Group Software / TownSq (blogs) — estrutura de custo da administradora: folha como maior custo fixo, margem ~10%
 - Relatórios de proptech 2025 — US$ 16,7 bi captados (+68%); capital migrando de "assistência" para "execução"
