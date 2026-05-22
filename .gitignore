@@ -1,0 +1,10 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Claude Code local state
+.claude/.runtime-state/
+.claude/COMPACT_NOTES.md
