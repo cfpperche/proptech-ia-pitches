@@ -60,12 +60,7 @@ O enquadramento certo: o operador agêntico é um **superpoder para a administra
 
 **Por que a Group.** O operador agêntico precisa de duas coisas que a Group já tem: o ERP onde as ações de fato acontecem (sem ele, o agente não tem onde executar) e a base de ~100 mil condomínios para treinar e validar os agentes. Construir isso fora da Group é ter de construir o ERP primeiro. Com a Group, começa-se no degrau certo.
 
-**Por que este time.** O herói não é difícil de imaginar — é difícil de *confiar*. O risco real não é construir agentes; é construir o plano de controle que torna a autonomia auditável o bastante para uma administradora apostar a operação nele. Quatro coisas, raras de achar juntas, endereçam exatamente esse risco:
-
-- **Construo a camada de governança de agentes de IA.** Contrato verificável, trilha de auditoria, supervisão por exceção — a disciplina que separa "agente que às vezes erra" de "operador em que se confia". O plano de controle do herói é o que eu já faço.
-- **Formação em controle supervisório de sistemas autônomos.** "Como tornar um sistema autônomo seguro de supervisionar" foi o tema da minha pesquisa de mestrado — a escada de autonomia é a aplicação direta disso.
-- **Conheço a Group por dentro.** Fui arquiteto de software da Group; sei onde, no ERP, os agentes vão executar.
-- **Operei um negócio B2B por cinco anos.** O herói é um negócio de serviço — entendo a administradora como operação, não só como diagrama de software.
+**Por que este time.** O herói não é difícil de imaginar — é difícil de *confiar*. O risco real não é construir agentes; é construir o plano de controle que torna a autonomia auditável o bastante para uma administradora apostar a operação nele. É exatamente o que eu construo: a camada de governança de agentes de IA — contrato verificável, trilha de auditoria, supervisão por exceção —, a disciplina que separa "agente que às vezes erra" de "operador em que se confia".
 
 *(Personalizar: nome, links de portfólio e LinkedIn.)*
 
